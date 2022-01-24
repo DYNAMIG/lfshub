@@ -1,8 +1,12 @@
 @font-face {
-    font-family: 'HuntersFury';
-    src: url(fonts/HuntersFury.ttf);
+    font-family: 'Ubuntu';
+    src: url(fonts/Ubuntu.ttf);
   }
 
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url(fonts/Ubuntu-Medium.ttf);
+  }
 body,
 html {
     width: 100%;
@@ -70,7 +74,7 @@ button {
     appearance: none;
     background: none;
     font-size: 0.972vw;
-    font-family: 'HuntersFury'
+    font-family: 'Ubuntu'
 }
 
 header,
@@ -513,7 +517,7 @@ body {
     font-weight: normal;
     line-height: 1.389vw;
     letter-spacing: 0.02em;
-    font-family: 'HuntersFury'
+    font-family: 'Ubuntu'
 }
 
 .is-light ::selection {
@@ -684,7 +688,7 @@ h1 {
 }
 
 @font-face {
-    font-family: 'HuntersFury';
+    font-family: 'Ubuntu';
     src: url(./fonts/MonumentGrotesk-Regular.woff2) format("woff2"), url(./fonts/MonumentGrotesk-Regular.woff) format("woff");
     font-weight: normal;
     font-style: normal;
@@ -692,7 +696,7 @@ h1 {
 }
 
 @font-face {
-    font-family: 'HuntersFury';
+    font-family: 'Ubuntu';
     src: url(./fonts/MonumentGrotesk-Medium.woff2) format("woff2"), url(./fonts/MonumentGrotesk-Medium.woff) format("woff");
     font-weight: 500;
     font-style: normal;
