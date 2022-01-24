@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="400" height="200" viewBox="0 0 400 200" xml:space="preserve">
+<desc>Created with Fabric.js 4.2.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 200 100)" id="0199c18d-7260-4895-babf-bea4dfd35f0d"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-200" y="-100" rx="0" ry="0" width="400" height="200" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="ee5da3bd-dff7-49b5-a73c-fc3d13e501a4"  >
+</g>
+<g transform="matrix(1.09 0 0 1.7 167.7 167.22)" style="" id="204095cc-bbcd-43b6-a06f-a44428249bea"  >
+		<rect opacity="0" fill="rgb(255,255,255)" x="-218.82" y="-25.42" width="437.64" height="50.85"></rect>
+		<text xml:space="preserve" font-family="Anton" font-size="45" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-149.89" y="14.14" >LFS Locker Room</tspan></text>
+</g>
+</svg>
