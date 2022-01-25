@@ -5,13 +5,12 @@
 <defs>
 </defs>
 <rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
-<g transform="matrix(1 0 0 1 200 100)" id="0199c18d-7260-4895-babf-bea4dfd35f0d"  >
-<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-200" y="-100" rx="0" ry="0" width="400" height="200" />
+<g transform="matrix(1 0 0 1 200 100)" id="4befa970-5811-4236-a832-db1270f1207b"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(119,74,74); fill-opacity: 0; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  x="-200" y="-100" rx="0" ry="0" width="400" height="200" />
 </g>
-<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="ee5da3bd-dff7-49b5-a73c-fc3d13e501a4"  >
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="1d4fd056-ff32-432f-9257-1061740d1879"  >
 </g>
-<g transform="matrix(1.09 0 0 1.7 167.7 167.22)" style="" id="204095cc-bbcd-43b6-a06f-a44428249bea"  >
-		<rect opacity="0" fill="rgb(255,255,255)" x="-218.82" y="-25.42" width="437.64" height="50.85"></rect>
-		<text xml:space="preserve" font-family="Anton" font-size="45" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-149.89" y="14.14" >LFS Locker Room</tspan></text>
+<g transform="matrix(0.71 0 0 1.13 200 129.4)" style="" id="b6858a05-f587-437f-87d5-61621a7afb5e"  >
+		<text xml:space="preserve" font-family="Source Sans Pro" font-size="117" font-style="normal" font-weight="900" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-237.28" y="36.75" >Kyu Bey?</tspan></text>
 </g>
 </svg>
