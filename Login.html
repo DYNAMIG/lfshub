@@ -1,12 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login : LFSHUB</title>
-</head>
-<body>
-    <p>This is login for LFSHUB</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+    <style>
+        * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000000;
+}
+
+.form {
+  position: relative;
+  padding: 60px 15px;
+  width: 270px;
+  height: 350px;
+  background: #000000;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 0px #000000;
+  border-radius: 5px;
+}
+
+.form-inner {
+  position: absolute;
+  height: 99%;
+  width: 99%;
+  top: 50%;
+  left: 50%;
+  background: #000000;
+  transform: translate(-50%, -50%);
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+}
+.form-inner h2 {
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 35px;    
+}
+.input {
+  display: block;
+  padding: 12px 15px;
+  width: 100%;
+  left: 50%;
+  border-radius: 30px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background: #000000;
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  color: white;
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  outline: none;
+  background: #000000;
+  border: none;
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.btn:hover {
+  background: #0fd10f;
+}
+
+.form span {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+}
+
+.form span:nth-child(1) {
+  background: #ffda05;
+  top: 0;
+  left: -48%;
+  animation: 5s span1 infinite linear;
+  animation-delay: 1s;
+}
+.form span:nth-child(2) {
+  background: #00a800;
+  bottom: 0;
+  right: -48%;
+  animation: 5s span2 infinite linear;
+}
+.form span:nth-child(3) {
+  background: #00f7ff;
+  right: -48%;
+  top: 0px;
+  animation: 5s span3 infinite linear;
+}
+.form span:nth-child(4) {
+  background: #ff0000;
+  bottom: 0;
+  right: -48%;
+  animation: 5s span4 infinite linear;
+  animation-delay: 1s;
+}
+
+@keyframes span1 {
+  0% {
+    top: -48%;
+    left: -48%;
+  }
+  25% {
+    top: -48%;
+    left: 98%;
+  }
+  50% {
+    top: 98%;
+    left: 98%;
+  }
+  75% {
+    top: 98%;
+    left: -48%;
+  }
+  100% {
+    top: -48%;
+    left: -48%;
+  }
+}
+@keyframes span2 {
+  0% {
+    bottom: -48%;
+    right: -48%;
+  }
+  25% {
+    bottom: -48%;
+    right: 98%;
+  }
+  50% {
+    bottom: 98%;
+    right: 98%;
+  }
+  75% {
+    bottom: 98%;
+    right: -48%;
+  }
+  100% {
+    bottom: -48%;
+    right: -48%;
+  }
+}
+@keyframes span3 {
+  0% {
+    top: -48%;
+    left: -48%;
+  }
+  25% {
+    top: -48%;
+    left: 98%;
+  }
+  50% {
+    top: 98%;
+    left: 98%;
+  }
+  75% {
+    top: 98%;
+    left: -48%;
+  }
+  100% {
+    top: -48%;
+    left: -48%;
+  }
+}
+
+@keyframes span4 {
+  0% {
+    bottom: -48%;
+    right: -48%;
+  }
+  25% {
+    bottom: -48%;
+    right: 98%;
+  }
+  50% {
+    bottom: 98%;
+    right: 98%;
+  }
+  75% {
+    bottom: 98%;
+    right: -48%;
+  }
+  100% {
+    bottom: -48%;
+    right: -48%;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <form action="" class="form">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <div class="form-inner">
+        <h2>LOGIN</h2>
+        <div class="content">
+          <input class="input" type="text" placeholder="Username" />
+          <input class="input" type="password" placeholder="Password" />
+          <button class="btn">LOGIN</button></div>
+      </div>
+
+
+    </form>
+  </body>
 </html>
