@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(19, 19, 19);
+}
+
+.containerS {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vw;
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7vw;
+}
+
+#logo {
+    height: 10vh;
+}
+
+#Output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+    padding: 0px 10vw 0px 10vw;
+    height: 30vh;
+    backdrop-filter: blur(2px);
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+#OutputString{
+    height: 10vh;
+    border: 10px;
+}
+
+/* Background */
+
+.bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200vh;
+    background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+    background-repeat: repeat;
+    animation: bg-animation .2s infinite;
+    opacity: .9;
+    visibility: visible;
+    z-index: -1;
+}
+
+@keyframes bg-animation {
+    0% {
+        transform: translate(0, 0)
+    }
+
+    10% {
+        transform: translate(-5%, -5%)
+    }
+
+    20% {
+        transform: translate(-10%, 5%)
+    }
+
+    30% {
+        transform: translate(5%, -10%)
+    }
+
+    40% {
+        transform: translate(-5%, 15%)
+    }
+
+    50% {
+        transform: translate(-10%, 5%)
+    }
+
+    60% {
+        transform: translate(15%, 0)
+    }
+
+    70% {
+        transform: translate(0, 10%)
+    }
+
+    80% {
+        transform: translate(-15%, 0)
+    }
+
+    90% {
+        transform: translate(10%, 5%)
+    }
+
+    100% {
+        transform: translate(5%, 0)
+    }
+}
+
+/* Copy Button */
+.copy {
+    border-radius: 4px;
+    background-color: #22c55e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 13px;
+    width: 10vh;
+    height: 5vh;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 10vh;
+}
+
+.copy span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.copy span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.copy:hover span {
+    padding-right: 25px;
+}
+
+.copy:hover span:after {
+    opacity: 1;
+    right: 0;
+}
